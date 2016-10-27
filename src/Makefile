@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -g -std=gnu99 -DHAVE_VLOG
-LDFLAGS = -lm
+LOADLIBES=-lm 
 VERSION = 1.0-g233
 DISTDIR = parsefsh-$(VERSION)
 DESTDIR = /usr/local/bin
